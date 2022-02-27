@@ -8,7 +8,7 @@ for i in range(n):
     teleport, row, col = map(int, sys.stdin.readline().rstrip().split())
     teleportable[i] = teleport
     positions[i] = [row, col]
-    # 노드 별 좌표와 텔레포드 가능 여부 저장
+    # 노드 별 좌표와 텔레포트 가능 여부 저장
 INF = 10000
 nodes = [[INF for _ in range(n)] for _ in range(n)]
 
