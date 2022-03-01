@@ -26,7 +26,7 @@ while queue:
             # 지금 갈 수 있는 방법보다 짧은 루트가 존재한다면
             distances[next_node] = next_cost + cur_cost
             heapq.heappush(queue, [next_cost+cur_cost, next_node])
-            # 간선 저보를 업데이트하고, 이를 활용할 수 있도록 큐에 넣어서 다른 연결 지점에서도 사용하자.
+            # 간선 정보를 업데이트하고, 이를 활용할 수 있도록 큐에 넣어서 다른 연결 지점에서도 사용하자.
 
 for distance in distances[1:]:
     if distance == INF: print('INF')
