@@ -1,4 +1,16 @@
 import sys
+# from itertools import permutations
+#
+# n = int(sys.stdin.readline().rstrip())
+# numbers = list(map(int, sys.stdin.readline().rstrip().split()))
+# cases = list(permutations(numbers, n))
+# ans = 0
+# for case in cases:
+#     total = 0
+#     for num1, num2 in zip(case[:-1], case[1:]):
+#         total += abs(num1 - num2)
+#     ans = max(total, ans)
+# print(ans)
 
 n = int(sys.stdin.readline().rstrip())
 numbers = list(map(int, sys.stdin.readline().rstrip().split()))
